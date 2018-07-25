@@ -1,0 +1,20 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Download_Organizer"
+        mc:Ignorable="d"
+        Title="Download Organizer" Height="350" Width="525" MinHeight="126" MinWidth="300" Icon="Download Organizer.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="PreviewBtn" Content="Preview" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="Log" HorizontalAlignment="Stretch" Margin="0,35,-0.333,-0.333" />
+        <ProgressBar x:Name="Progress" Height="20" Margin="206,7,120.667,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="StartBtn" Content="Start" HorizontalAlignment="Left" Margin="100,7,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
